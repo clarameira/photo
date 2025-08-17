@@ -40,18 +40,22 @@ body {
 .hero {
   display: flex;
   align-items: center;
-  justify-content: space-between;
-  padding: 3rem 5%;
+  justify-content: center; /* Centraliza horizontalmente */
+  padding: 2rem 5%; /* Ajustei o padding para reduzir o espaço */
   background: #f0f4ff;
+  height: auto; /* Removido o 100vh para não forçar altura cheia */
+  text-align: center; /* Centraliza o texto */
+  flex-direction: column; /* Empilha o conteúdo na vertical */
 }
 
 .hero-text {
-  max-width: 50%;
+  max-width: 80%; /* Limita a largura do texto */
+  margin-bottom: 1rem; /* Ajustei o espaçamento entre o texto e a imagem */
 }
 
 .hero-text h1 {
-  font-family: "Anton", sans-serif; /* Impacto forte e esportivo */
-  font-size: 3rem;
+  font-family: "Anton", sans-serif;
+  font-size: 4rem; /* Aumentei o tamanho do título */
   color: #0044cc;
   text-transform: uppercase;
   letter-spacing: 2px;
@@ -81,10 +85,19 @@ body {
   background: #cc0000;
 }
 
+/* Hero - Ajuste da Logo */
+.hero-img {
+  display: flex;
+  justify-content: center; /* Centraliza a imagem horizontalmente */
+  flex: 1;
+}
+
 .hero-img img {
-  max-width: 350px;
-  border-radius: 50%;
-  border: 5px solid #cc0000;
+  width: 200px; /* Ajustei a largura da logo */
+  height: 200px; /* Ajustei a altura da logo */
+  object-fit: contain; /* Mantém a proporção da imagem */
+  border-radius: 50%; /* Mantém a borda arredondada */
+  border: 0.5px solid #cc0000; /* Borda sutil */
 }
 
 /* Seções */
@@ -188,4 +201,21 @@ section {
   padding: 1rem;
   font-family: "Bebas Neue", sans-serif;
   letter-spacing: 1px;
+}
+
+/* Responsividade */
+@media (max-width: 768px) {
+  .hero-img img {
+    max-width: 120px; /* Tamanho ainda menor para telas pequenas */
+    height: 120px; /* Mantém a altura proporcional */
+  }
+
+  .hero-text {
+    max-width: 90%; /* Diminui o tamanho do texto em telas menores */
+  }
+
+  .sobre-img img {
+    width: 200px; /* Ajustando para tamanho adequado */
+    height: 200px; /* Mantém a proporção ajustada */
+  }
 }
