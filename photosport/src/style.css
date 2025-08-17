@@ -50,12 +50,12 @@ body {
 
 .hero-text {
   max-width: 80%; /* Limita a largura do texto */
-  margin-bottom: 1rem; /* Ajustei o espaçamento entre o texto e a imagem */
+  margin-bottom: 1rem;
 }
 
 .hero-text h1 {
   font-family: "Anton", sans-serif;
-  font-size: 4rem; /* Aumentei o tamanho do título */
+  font-size: 4rem; 
   color: #0044cc;
   text-transform: uppercase;
   letter-spacing: 2px;
@@ -85,7 +85,7 @@ body {
   background: #cc0000;
 }
 
-/* Hero - Ajuste da Logo */
+/* Hero  */
 .hero-img {
   display: flex;
   justify-content: center; /* Centraliza a imagem horizontalmente */
@@ -93,8 +93,8 @@ body {
 }
 
 .hero-img img {
-  width: 200px; /* Ajustei a largura da logo */
-  height: 200px; /* Ajustei a altura da logo */
+  width: 200px; 
+  height: 200px; 
   object-fit: contain; /* Mantém a proporção da imagem */
   border-radius: 50%; /* Mantém a borda arredondada */
   border: 0.5px solid #cc0000; /* Borda sutil */
@@ -211,11 +211,11 @@ section {
   }
 
   .hero-text {
-    max-width: 90%; /* Diminui o tamanho do texto em telas menores */
+    max-width: 90%; 
   }
 
   .sobre-img img {
-    width: 200px; /* Ajustando para tamanho adequado */
+    width: 200px; 
     height: 200px; /* Mantém a proporção ajustada */
   }
 }
