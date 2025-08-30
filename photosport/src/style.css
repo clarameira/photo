@@ -95,9 +95,9 @@ body {
 .hero-img img {
   width: 200px; 
   height: 200px; 
-  object-fit: contain; /* Mantém a proporção da imagem */
-  border-radius: 50%; /* Mantém a borda arredondada */
-  border: 0.5px solid #cc0000; /* Borda sutil */
+  object-fit: contain; 
+  border-radius: 0; 
+  border: none; 
 }
 
 /* Seções */
