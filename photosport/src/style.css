@@ -3,7 +3,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: "Roboto", sans-serif; /* Base neutra para todo o texto */
+  font-family: "Roboto", sans-serif;
 }
 
 body {
@@ -19,7 +19,7 @@ body {
   align-items: center;
   background: linear-gradient(90deg, #0044cc, #cc0000);
   padding: 1rem 2rem;
-  font-family: "Bebas Neue", sans-serif; /* Fonte esportiva no menu */
+  font-family: "Bebas Neue", sans-serif;
   letter-spacing: 1px;
 }
 
@@ -43,7 +43,7 @@ body {
   justify-content: center; /* Centraliza horizontalmente */
   padding: 2rem 5%; /* Ajustei o padding para reduzir o espaço */
   background: #f0f4ff;
-  height: auto; /* Removido o 100vh para não forçar altura cheia */
+  height: auto; 
   text-align: center; /* Centraliza o texto */
   flex-direction: column; /* Empilha o conteúdo na vertical */
 }
